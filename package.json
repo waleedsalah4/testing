@@ -1,0 +1,22 @@
+{
+  "name": "integration-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "export NODE_ENV=testing || SET \"NODE_ENV=testing\" && jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  }
+}
