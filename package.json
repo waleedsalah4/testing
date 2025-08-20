@@ -1,5 +1,5 @@
 {
-  "name": "integration-testing",
+  "name": "automation-testing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,8 @@
     "body-parser": "^2.2.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "mongoose": "^8.17.2"
+    "mongoose": "^8.17.2",
+    "puppeteer": "^24.16.2"
   },
   "devDependencies": {
     "jest": "^30.0.5",
