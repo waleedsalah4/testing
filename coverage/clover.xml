@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1755620255382" clover="3.2.0">
-  <project timestamp="1755620255382" name="All files">
-    <metrics statements="109" coveredstatements="85" conditionals="16" coveredconditionals="10" methods="13" coveredmethods="10" elements="138" coveredelements="105" complexity="0" loc="109" ncloc="109" packages="4" files="7" classes="7"/>
-    <package name="tresmerge-testing">
+<coverage generated="1755705773891" clover="3.2.0">
+  <project timestamp="1755705773891" name="All files">
+    <metrics statements="130" coveredstatements="67" conditionals="24" coveredconditionals="10" methods="14" coveredmethods="2" elements="168" coveredelements="79" complexity="0" loc="130" ncloc="130" packages="5" files="9" classes="9"/>
+    <package name="integration-testing">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="app.js" path="D:\programming\testing\integration-testing\tresmerge-testing\app.js">
+      <file name="app.js" path="D:\programming\testing\integration-testing\app.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -19,24 +19,54 @@
         <line num="26" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="tresmerge-testing.config">
-      <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
-      <file name="config.js" path="D:\programming\testing\integration-testing\tresmerge-testing\config\config.js">
-        <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="6" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="7" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
+    <package name="integration-testing.config">
+      <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="0"/>
+      <file name="config.js" path="D:\programming\testing\integration-testing\config\config.js">
+        <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="tresmerge-testing.src.api">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="api-routes.js" path="D:\programming\testing\integration-testing\tresmerge-testing\src\api\api-routes.js">
+    <package name="integration-testing.src.api">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="api-routes.js" path="D:\programming\testing\integration-testing\src\api\api-routes.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="integration-testing.src.api.resources.auth">
+      <metrics statements="19" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="auth.controller.js" path="D:\programming\testing\integration-testing\src\api\resources\auth\auth.controller.js">
+        <metrics statements="14" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+      <file name="auth.router.js" path="D:\programming\testing\integration-testing\src\api\resources\auth\auth.router.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -45,10 +75,10 @@
         <line num="13" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="tresmerge-testing.src.api.resources.books">
-      <metrics statements="84" coveredstatements="61" conditionals="12" coveredconditionals="8" methods="10" coveredmethods="8"/>
-      <file name="books.controller.js" path="D:\programming\testing\integration-testing\tresmerge-testing\src\api\resources\books\books.controller.js">
-        <metrics statements="42" coveredstatements="28" conditionals="8" coveredconditionals="5" methods="5" coveredmethods="3"/>
+    <package name="integration-testing.src.api.resources.books">
+      <metrics statements="84" coveredstatements="24" conditionals="12" coveredconditionals="0" methods="10" coveredmethods="0"/>
+      <file name="books.controller.js" path="D:\programming\testing\integration-testing\src\api\resources\books\books.controller.js">
+        <metrics statements="42" coveredstatements="7" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -56,13 +86,13 @@
         <line num="8" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
@@ -72,34 +102,34 @@
         <line num="46" count="0" type="stmt"/>
         <line num="51" count="0" type="stmt"/>
         <line num="56" count="1" type="stmt"/>
-        <line num="57" count="3" type="stmt"/>
-        <line num="58" count="3" type="stmt"/>
-        <line num="59" count="3" type="stmt"/>
-        <line num="61" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="62" count="2" type="stmt"/>
-        <line num="65" count="1" type="stmt"/>
-        <line num="66" count="1" type="stmt"/>
-        <line num="71" count="1" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
         <line num="76" count="0" type="stmt"/>
         <line num="81" count="1" type="stmt"/>
-        <line num="82" count="1" type="stmt"/>
-        <line num="83" count="1" type="stmt"/>
-        <line num="84" count="1" type="stmt"/>
-        <line num="86" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="87" count="0" type="stmt"/>
-        <line num="89" count="1" type="stmt"/>
-        <line num="90" count="1" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
         <line num="94" count="0" type="stmt"/>
         <line num="98" count="1" type="stmt"/>
       </file>
-      <file name="books.model.js" path="D:\programming\testing\integration-testing\tresmerge-testing\src\api\resources\books\books.model.js">
+      <file name="books.model.js" path="D:\programming\testing\integration-testing\src\api\resources\books\books.model.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
       </file>
-      <file name="books.router.js" path="D:\programming\testing\integration-testing\tresmerge-testing\src\api\resources\books\books.router.js">
+      <file name="books.router.js" path="D:\programming\testing\integration-testing\src\api\resources\books\books.router.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -108,40 +138,40 @@
         <line num="16" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
       </file>
-      <file name="books.service.js" path="D:\programming\testing\integration-testing\tresmerge-testing\src\api\resources\books\books.service.js">
-        <metrics statements="32" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
+      <file name="books.service.js" path="D:\programming\testing\integration-testing\src\api\resources\books\books.service.js">
+        <metrics statements="32" coveredstatements="7" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="7" type="stmt"/>
-        <line num="16" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="19" count="7" type="stmt"/>
-        <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="23" count="6" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
-        <line num="51" count="2" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
         <line num="55" count="0" type="stmt"/>
         <line num="56" count="0" type="stmt"/>
-        <line num="60" count="2" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
       </file>
     </package>
   </project>
